@@ -2,7 +2,7 @@
 
 # Check input
 if [ -z "$1" ]; then
-    echo "❌ Usage: ./run path/to/file.cpp"
+    echo "❌ Usage: ./run folder_name/file_name.cpp"
     exit 1
 fi
 
