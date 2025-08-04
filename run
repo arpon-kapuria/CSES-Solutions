@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Check input
+if [ -z "$1" ]; then
+    echo "❌ Usage: ./run path/to/file.cpp"
+    exit 1
+fi
+
+SOURCE="$1"
+
+# Ensure file exists
+if [ ! -f "$SOURCE" ]; then
+    echo "❌ File not found: $SOURCE"
+    exit 1
+fi
+
+# Create build directory if missing
+mkdir -p build
+
+# Generate binary name: folder1/foo.cpp → folder1_foo
+BASENAME=$(basename "$SOURCE" .cpp)
+DIRNAME=$(dirname "$SOURCE" | sed 's/\//_/g')
+BIN="build/${DIRNAME}_${BASENAME}"
+
+# Compile
+echo "🔧 Compiling $SOURCE → $BIN"
+g++ -std=c++17 -Wall -Wextra -O2 "$SOURCE" -o "$BIN"
+if [ $? -ne 0 ]; then
+    echo "❌ Compilation failed"
+    exit 1
+fi
+
+# Run
+echo "🚀 Running $BIN"
+"./$BIN"
