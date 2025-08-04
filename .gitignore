@@ -1,0 +1,7 @@
+# vs code on mac requirement
+.DS_Store
+
+# hide binary files
+*.out
+*.exe
+build
