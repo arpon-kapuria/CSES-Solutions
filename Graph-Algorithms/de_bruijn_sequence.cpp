@@ -9,6 +9,8 @@ Approach:
 - Perform DFS to simulate Hierholzer’s algorithm and record the path.
 - Reconstruct the de Bruijn sequence from the traversal.
 
+Time Complexity: O(n * 2^n)
+Space Complexity: O(n * 2^n)
 */
 
 #include <bits/stdc++.h>
