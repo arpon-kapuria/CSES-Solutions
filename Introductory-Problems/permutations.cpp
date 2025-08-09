@@ -1,3 +1,19 @@
+/*
+Problem Link: https://cses.fi/problemset/task/1070/
+
+Approach:
+
+- The task is to arrange numbers from 1 to n so that no two adjacent numbers differ by 1.
+- If n is 1, print 1; if n is 2 or 3, print "NO SOLUTION" since no valid arrangement exists.
+- For larger n, separate even and odd numbers.
+- Print all odd numbers first in descending order, then even numbers in descending order, and if n is odd, print n at the end.
+- This arrangement ensures no adjacent numbers differ by 1.
+
+Time Complexity: O(n) 
+Space Complexity: O(1)
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

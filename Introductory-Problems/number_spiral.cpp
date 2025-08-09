@@ -1,3 +1,18 @@
+/*
+Problem Link: https://cses.fi/problemset/task/1071/
+
+Approach:
+
+- Identify the maximum of the two coordinates (row or col) to determine the "layer" or "square" in the number spiral.
+- Calculate the base number for this layer using (maximum - 1)^2.
+- For even layers, numbers increase vertically first; for odd layers, numbers increase horizontally first.
+- Use conditions based on parity of maximum and comparison between row and col to calculate the exact number at the given position.
+
+Time Complexity: O(t) — where t is the number of test cases
+Space Complexity: O(1)
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

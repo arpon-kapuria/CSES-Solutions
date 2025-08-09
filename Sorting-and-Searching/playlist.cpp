@@ -1,3 +1,18 @@
+/*
+Problem Link: https://cses.fi/problemset/task/1141/
+
+Approach:
+
+- The task is to find the length of the longest subarray with all distinct elements.
+- Use a sliding window approach with two pointers: start and end to track the current subarray.
+- Maintain a map storing each element's last seen index; when a duplicate is found within the current window, move start to the position after its last occurrence.
+- Continuously update the maximum length found on each iteration.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
