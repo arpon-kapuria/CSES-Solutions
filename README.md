@@ -1,6 +1,6 @@
 ## CSES Problem Set Solutions
 
-This repository contains my C++ solutions and approaches to the [CSES Problem Set](https://cses.fi/problemset/).  
+This repository contains my [[arpon-kapuria](https://cses.fi/user/356063)] C++ solutions and approaches to the [CSES Problem Set](https://cses.fi/problemset/).  
 
 ### How It Works
 
