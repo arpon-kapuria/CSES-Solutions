@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems
+## Problems `37/400`
 
 ### Introductory Problems
 
@@ -36,7 +36,7 @@ To compile and run any solution:
 - [ ] Gray Code
 - [x] [Tower of Hanoi](./Introductory-Problems/Tower%20of%20Hanoi.cpp)
 - [ ] Creating Strings
-- [ ] Apple Division
+- [ ] [Apple Division](./Introductory-Problems/Apple%20Division.cpp)
 - [ ] Chessboard and Queens
 - [ ] Raab Game I
 - [ ] Mex Grid Construction
