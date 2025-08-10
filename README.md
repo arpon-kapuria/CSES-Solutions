@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `37/400`
+## Problems `38/400`
 
 ### Introductory Problems
 
