@@ -58,7 +58,7 @@ To compile and run any solution:
 - [x] [Maximum Subarray Sum](./Sorting-and-Searching/Maximum%20Subarray%20Sum.cpp)
 - [ ] Stick Lengths
 - [ ] Missing Coin Sum
-- [ ] Collecting Numbers
+- [ ] [Collecting Numbers](./Sorting-and-Searching/Collecting%20Numbers.cpp)
 - [ ] Collecting Numbers II
 - [x] [Playlist](./Sorting-and-Searching/Playlist.cpp)
 - [ ] Towers
