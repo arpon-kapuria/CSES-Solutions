@@ -59,7 +59,7 @@ To compile and run any solution:
 - [ ] Stick Lengths
 - [ ] Missing Coin Sum
 - [ ] [Collecting Numbers](./Sorting-and-Searching/Collecting%20Numbers.cpp)
-- [ ] Collecting Numbers II
+- [ ] [Collecting Numbers II](./Sorting-and-Searching/Collecting%20Numbers%20II.cpp)
 - [x] [Playlist](./Sorting-and-Searching/Playlist.cpp)
 - [ ] Towers
 - [ ] Traffic Lights
