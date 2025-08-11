@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `38/400`
+## Problems `39/400`
 
 ### Introductory Problems
 
@@ -35,7 +35,7 @@ To compile and run any solution:
 - [ ] Palindrome Reorder
 - [ ] Gray Code
 - [x] [Tower of Hanoi](./Introductory-Problems/Tower%20of%20Hanoi.cpp)
-- [ ] Creating Strings
+- [x] [Creating Strings](./Introductory-Problems/Creating%20Strings.cpp)
 - [ ] [Apple Division](./Introductory-Problems/Apple%20Division.cpp)
 - [ ] Chessboard and Queens
 - [ ] Raab Game I
