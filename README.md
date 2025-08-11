@@ -1,6 +1,6 @@
 # CSES Problem Set Solutions
 
-This repository contains my [[arpon-kapuria](https://cses.fi/user/356063)] C++ solutions and approaches to the [CSES Problem Set](https://cses.fi/problemset/).  
+Contains my [[arpon-kapuria]](https://cses.fi/user/356063) C++ solutions and approaches to the [CSES Problem Set](https://cses.fi/problemset/).  
 
 ## How It Works
 
@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `39/400`
+## Problems `40/400`
 
 ### Introductory Problems
 
@@ -32,7 +32,7 @@ To compile and run any solution:
 - [x] [Bit Strings](./Introductory-Problems/Bit%20Strings.cpp)
 - [x] [Trailing Zeros](./Introductory-Problems/Trailing%20Zeros.cpp)
 - [ ] Coin Piles
-- [ ] Palindrome Reorder
+- [x] [Palindrome Reorder](./Introductory-Problems/Palindrome%20Reorder.cpp)
 - [ ] Gray Code
 - [x] [Tower of Hanoi](./Introductory-Problems/Tower%20of%20Hanoi.cpp)
 - [x] [Creating Strings](./Introductory-Problems/Creating%20Strings.cpp)
