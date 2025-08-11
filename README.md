@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `40/400`
+## Problems `41/400`
 
 ### Introductory Problems
 
@@ -31,7 +31,7 @@ To compile and run any solution:
 - [x] [Two Sets](./Introductory-Problems/Two%20Sets.cpp)
 - [x] [Bit Strings](./Introductory-Problems/Bit%20Strings.cpp)
 - [x] [Trailing Zeros](./Introductory-Problems/Trailing%20Zeros.cpp)
-- [ ] Coin Piles
+- [x] [Coin Piles](./Introductory-Problems/Coin%20Piles.cpp)
 - [x] [Palindrome Reorder](./Introductory-Problems/Palindrome%20Reorder.cpp)
 - [ ] Gray Code
 - [x] [Tower of Hanoi](./Introductory-Problems/Tower%20of%20Hanoi.cpp)
