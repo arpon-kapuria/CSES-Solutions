@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `42/400`
+## Problems `44/400`
 
 ### Introductory Problems
 
@@ -57,7 +57,7 @@ To compile and run any solution:
 - [x] [Sum of Two Values](./Sorting-and-Searching/Sum%20of%20Two%20Values.cpp)
 - [x] [Maximum Subarray Sum](./Sorting-and-Searching/Maximum%20Subarray%20Sum.cpp)
 - [ ] [Stick Lengths](./Sorting-and-Searching/Stick%20Lengths.cpp)
-- [ ] Missing Coin Sum
+- [ ] [Missing Coin Sum](./Sorting-and-Searching/Missing%20Coin%20Sum.cpp)
 - [ ] [Collecting Numbers](./Sorting-and-Searching/Collecting%20Numbers.cpp)
 - [ ] [Collecting Numbers II](./Sorting-and-Searching/Collecting%20Numbers%20II.cpp)
 - [x] [Playlist](./Sorting-and-Searching/Playlist.cpp)
