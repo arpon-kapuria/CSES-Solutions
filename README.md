@@ -56,7 +56,7 @@ To compile and run any solution:
 - [x] [Movie Festival](./Sorting-and-Searching/Movie%20Festival.cpp)
 - [x] [Sum of Two Values](./Sorting-and-Searching/Sum%20of%20Two%20Values.cpp)
 - [x] [Maximum Subarray Sum](./Sorting-and-Searching/Maximum%20Subarray%20Sum.cpp)
-- [ ] Stick Lengths
+- [ ] [Stick Lengths](./Sorting-and-Searching/Stick%20Lengths.cpp)
 - [ ] Missing Coin Sum
 - [ ] [Collecting Numbers](./Sorting-and-Searching/Collecting%20Numbers.cpp)
 - [ ] [Collecting Numbers II](./Sorting-and-Searching/Collecting%20Numbers%20II.cpp)
