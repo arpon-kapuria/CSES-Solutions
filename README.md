@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `46/400`
+## Problems `47/400`
 
 ### Introductory Problems
 
@@ -81,7 +81,7 @@ To compile and run any solution:
 - [ ] Subarray Divisibility
 - [ ] Distinct Values Subarrays II
 - [ ] Array Division
-- [ ] Movie Festival II
+- [ ] [Movie Festival II](./Sorting-and-Searching/Movie%20Festival%20II.cpp)
 - [x] [Maximum Subarray Sum II](./Sorting-and-Searching/Maximum%20Subarray%20Sum%20II.cpp)
 
 ### Dynamic Programming
