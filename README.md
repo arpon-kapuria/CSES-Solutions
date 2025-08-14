@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `48/400`
+## Problems `49/400`
 
 ### Introductory Problems
 
@@ -77,7 +77,7 @@ To compile and run any solution:
 - [ ] Sum of Four Values
 - [ ] Nearest Smaller Values
 - [ ] [Subarray Sums I](./Sorting-and-Searching/Subarray%20Sums%20I.cpp)
-- [ ] Subarray Sums II
+- [ ] [Subarray Sums II](./Sorting-and-Searching/Subarray%20Sums%20II.cpp)
 - [ ] Subarray Divisibility
 - [ ] Distinct Values Subarrays II
 - [ ] Array Division

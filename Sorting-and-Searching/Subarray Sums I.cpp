@@ -2,29 +2,20 @@
 Problem Link: https://cses.fi/problemset/task/1660/
 
 Intuition: 
-- We use a prefix sum to keep track of the sum of elements up to the current index.
-- If at index i the prefix sum is S, then any earlier index j with prefix sum S - k indicates that the subarray (j+1 ... i) sums to k.
-- Instead of scanning backwards each time (which is O(n^2)), we store counts of each prefix sum in a hash map so we can instantly know how many earlier subarrays match.
-- This works even with negative numbers because prefix sums naturally handle offset overlaps.
+We use a sliding window because all numbers are assumed to be non-negative, so expanding the right pointer always increases the sum and shrinking the left pointer always decreases it. This lets us find subarrays with sum exactly k in linear time without backtracking.
 
 Approach:
-- Maintain a running prefix sum as you iterate over the array.
-- Keep a hash map storing (prefixSumValue, countOfOccurrences). Initialize with (0, 1) so subarrays starting at index 0 are counted.
-- For each prefix sum S, the number of subarrays ending at the current index with sum k is map[S - k].
-- Increment count by map[S - k], then increment map[S] for the current prefix sum.
+- Maintain two pointers (start, end) and a running sum of the current window.
+- Expand the end pointer until the sum is at least k.
+- If the sum exceeds k, move start forward while reducing the sum.
+- When the sum equals k, increment the count and move start forward to search for the next subarray.
+- Continue until the right pointer passes the last element.
 
-Example:
-Array: 3 4 7 -2 2 1 4 2, k = 7
-Prefix sums: 3 7 14 12 14 15 19 21
-Map evolution: (0,1), (3,1), (7,1), (14,2), (12,1), (15,1), (19,1), (21,1)
-When prefixSum = 21:
-    21 - 7 = 14 -> map[14] = 2 means there are two earlier positions (indices 2 and 4) that produce subarrays summing to 7:
-Index 3 -> 7: -2 2 1 4 2
-Index 5 -> 7: 1 4 2
-This is why we add map[S - k] (not just 1) to the count.
+N.B: Main drawback of this sliding window approach is that it only works correctly when all array elements are non-negative.
+Prefix-sum + hashmap method is generally preferred for mixed integers. (Subarray Sums II)
 
 Time Complexity: O(n)
-Space Complexity: O(n)
+Space Complexity: O(1)
 */
 
 
@@ -34,24 +25,30 @@ using ll = long long;
 
 void subarray_sums() {
     int n;
-    long long k;
+    ll k;
     cin >> n >> k;
 
-    vector<long long> nums(n);
+    vector<ll> nums(n);
     for (int i = 0; i < n; i++) {
         cin >> nums[i];
     }
 
-    long long prefixSum = 0, count = 0;
-    unordered_map<long long, long long> mp;
-    mp[0] = 1; // empty prefix sum
+    ll start = 0, end = -1, sum = 0, count = 0;
 
-    for (int i = 0; i < n; i++) {
-        prefixSum += nums[i];
-        if (mp.find(prefixSum - k) != mp.end()) {
-            count += mp[prefixSum - k];
+    while (end < n) {
+        while (end < n && sum < k) {
+            end += 1;
+            sum += nums[end];
         }
-        mp[prefixSum]++;
+        while (start <= end && sum > k) {
+            sum -= nums[start];
+            start += 1;
+        }
+        if (sum == k) {
+            count += 1;
+            sum -= nums[start];
+            start += 1;
+        }
     }
     cout << count << endl;
 }
