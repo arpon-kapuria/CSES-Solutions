@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `49/400`
+## Problems `50/400`
 
 ### Introductory Problems
 
@@ -33,10 +33,10 @@ To compile and run any solution:
 - [x] [Trailing Zeros](./Introductory-Problems/Trailing%20Zeros.cpp)
 - [x] [Coin Piles](./Introductory-Problems/Coin%20Piles.cpp)
 - [x] [Palindrome Reorder](./Introductory-Problems/Palindrome%20Reorder.cpp)
-- [ ] [Gray Code](./Introductory-Problems/Gray%20Code.cpp)
+- [x] [Gray Code](./Introductory-Problems/Gray%20Code.cpp)
 - [x] [Tower of Hanoi](./Introductory-Problems/Tower%20of%20Hanoi.cpp)
 - [x] [Creating Strings](./Introductory-Problems/Creating%20Strings.cpp)
-- [ ] [Apple Division](./Introductory-Problems/Apple%20Division.cpp)
+- [x] [Apple Division](./Introductory-Problems/Apple%20Division.cpp)
 - [ ] Chessboard and Queens
 - [ ] Raab Game I
 - [ ] Mex Grid Construction
@@ -56,13 +56,13 @@ To compile and run any solution:
 - [x] [Movie Festival](./Sorting-and-Searching/Movie%20Festival.cpp)
 - [x] [Sum of Two Values](./Sorting-and-Searching/Sum%20of%20Two%20Values.cpp)
 - [x] [Maximum Subarray Sum](./Sorting-and-Searching/Maximum%20Subarray%20Sum.cpp)
-- [ ] [Stick Lengths](./Sorting-and-Searching/Stick%20Lengths.cpp)
-- [ ] [Missing Coin Sum](./Sorting-and-Searching/Missing%20Coin%20Sum.cpp)
-- [ ] [Collecting Numbers](./Sorting-and-Searching/Collecting%20Numbers.cpp)
-- [ ] [Collecting Numbers II](./Sorting-and-Searching/Collecting%20Numbers%20II.cpp)
+- [x] [Stick Lengths](./Sorting-and-Searching/Stick%20Lengths.cpp)
+- [x] [Missing Coin Sum](./Sorting-and-Searching/Missing%20Coin%20Sum.cpp)
+- [x] [Collecting Numbers](./Sorting-and-Searching/Collecting%20Numbers.cpp)
+- [x] [Collecting Numbers II](./Sorting-and-Searching/Collecting%20Numbers%20II.cpp)
 - [x] [Playlist](./Sorting-and-Searching/Playlist.cpp)
-- [ ] [Towers](./Sorting-and-Searching/Towers.cpp)
-- [ ] [Traffic Lights](./Sorting-and-Searching/Traffic%20Lights.cpp)
+- [x] [Towers](./Sorting-and-Searching/Towers.cpp)
+- [x] [Traffic Lights](./Sorting-and-Searching/Traffic%20Lights.cpp)
 - [x] [Distinct Values Subarrays](./Sorting-and-Searching/Distinct%20Value%20Subarrays.cpp)
 - [ ] Distinct Values Subsequences
 - [ ] Josephus Problem I
@@ -76,12 +76,12 @@ To compile and run any solution:
 - [ ] Sum of Three Values
 - [ ] Sum of Four Values
 - [ ] Nearest Smaller Values
-- [ ] [Subarray Sums I](./Sorting-and-Searching/Subarray%20Sums%20I.cpp)
-- [ ] [Subarray Sums II](./Sorting-and-Searching/Subarray%20Sums%20II.cpp)
+- [x] [Subarray Sums I](./Sorting-and-Searching/Subarray%20Sums%20I.cpp)
+- [x] [Subarray Sums II](./Sorting-and-Searching/Subarray%20Sums%20II.cpp)
 - [ ] Subarray Divisibility
 - [ ] Distinct Values Subarrays II
-- [ ] Array Division
-- [ ] [Movie Festival II](./Sorting-and-Searching/Movie%20Festival%20II.cpp)
+- [x] [Array Division](./Sorting-and-Searching/Array%20Division.cpp)
+- [x] [Movie Festival II](./Sorting-and-Searching/Movie%20Festival%20II.cpp)
 - [x] [Maximum Subarray Sum II](./Sorting-and-Searching/Maximum%20Subarray%20Sum%20II.cpp)
 
 ### Dynamic Programming
