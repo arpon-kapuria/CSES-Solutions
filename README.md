@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `51/400`
+## Problems `52/400`
 
 ### Introductory Problems
 
@@ -79,7 +79,7 @@ To compile and run any solution:
 - [x] [Subarray Sums I](./Sorting-and-Searching/Subarray%20Sums%20I.cpp)
 - [x] [Subarray Sums II](./Sorting-and-Searching/Subarray%20Sums%20II.cpp)
 - [x] [Subarray Divisibility](./Sorting-and-Searching/Subarray%20Divisibility.cpp)
-- [ ] Distinct Values Subarrays II
+- [x] [Distinct Values Subarrays II](./Sorting-and-Searching/Distinct%20Values%20Subarrays%20II.cpp)
 - [x] [Array Division](./Sorting-and-Searching/Array%20Division.cpp)
 - [x] [Movie Festival II](./Sorting-and-Searching/Movie%20Festival%20II.cpp)
 - [x] [Maximum Subarray Sum II](./Sorting-and-Searching/Maximum%20Subarray%20Sum%20II.cpp)
