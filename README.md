@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `50/400`
+## Problems `51/400`
 
 ### Introductory Problems
 
@@ -78,7 +78,7 @@ To compile and run any solution:
 - [ ] Nearest Smaller Values
 - [x] [Subarray Sums I](./Sorting-and-Searching/Subarray%20Sums%20I.cpp)
 - [x] [Subarray Sums II](./Sorting-and-Searching/Subarray%20Sums%20II.cpp)
-- [ ] Subarray Divisibility
+- [x] [Subarray Divisibility](./Sorting-and-Searching/Subarray%20Divisibility.cpp)
 - [ ] Distinct Values Subarrays II
 - [x] [Array Division](./Sorting-and-Searching/Array%20Division.cpp)
 - [x] [Movie Festival II](./Sorting-and-Searching/Movie%20Festival%20II.cpp)
