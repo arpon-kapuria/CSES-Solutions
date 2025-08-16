@@ -1,5 +1,6 @@
 # vs code on mac requirement
 .DS_Store
+.vscode/
 
 # hide binary files
 *.out
