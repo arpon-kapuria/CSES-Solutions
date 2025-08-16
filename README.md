@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `52/400`
+## Problems `53/400`
 
 ### Introductory Problems
 
@@ -71,7 +71,7 @@ To compile and run any solution:
 - [ ] Nested Ranges Count
 - [x] [Room Allocation](./Sorting-and-Searching/Room%20Allocation.cpp)
 - [x] [Factory Machines](./Sorting-and-Searching/Factory%20Machines.cpp)
-- [ ] Tasks and Deadlines
+- [x] [Tasks and Deadlines](./Sorting-and-Searching/Tasks%20and%20Deadlines.cpp)
 - [ ] Reading Books
 - [ ] Sum of Three Values
 - [ ] Sum of Four Values
