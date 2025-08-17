@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `55/400`
+## Problems `56/400`
 
 ### Introductory Problems
 
@@ -74,7 +74,7 @@ To compile and run any solution:
 - [x] [Tasks and Deadlines](./Sorting-and-Searching/Tasks%20and%20Deadlines.cpp)
 - [x] [Reading Books](./Sorting-and-Searching/Reading%20Books.cpp)
 - [x] [Sum of Three Values](./Sorting-and-Searching/Sum%20of%20Three%20Values.cpp)
-- [ ] Sum of Four Values
+- [x] [Sum of Four Values](./Sorting-and-Searching/Sum%20of%20Four%20Values.cpp)
 - [ ] Nearest Smaller Values
 - [x] [Subarray Sums I](./Sorting-and-Searching/Subarray%20Sums%20I.cpp)
 - [x] [Subarray Sums II](./Sorting-and-Searching/Subarray%20Sums%20II.cpp)
