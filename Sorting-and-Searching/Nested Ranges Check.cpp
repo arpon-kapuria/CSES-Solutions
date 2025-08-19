@@ -26,7 +26,7 @@ Space Complexity: O(n)
 using namespace std;
 using ll = long long;
 
-void solve() {
+void nested_ranges_check() {
     int n;
     cin >> n;
     vector<tuple<int,int,int>> ranges(n);
@@ -68,6 +68,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    solve();
+    nested_ranges_check();
     return 0;
 }
