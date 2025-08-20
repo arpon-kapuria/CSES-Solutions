@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `60/400`
+## Problems `61/400`
 
 ### Introductory Problems
 
@@ -66,7 +66,7 @@ To compile and run any solution:
 - [x] [Distinct Values Subarrays](./Sorting-and-Searching/Distinct%20Value%20Subarrays.cpp)
 - [x] [Distinct Values Subsequences](./Sorting-and-Searching/Distinct%20Values%20Subsequences.cpp)
 - [x] [Josephus Problem I](./Sorting-and-Searching/Josephus%20Problem%20I.cpp)
-- [ ] Josephus Problem II
+- [x] [Josephus Problem II](./Sorting-and-Searching/Josephus%20Problem%20II.cpp)
 - [x] [Nested Ranges Check](./Sorting-and-Searching/Nested%20Ranges%20Check.cpp)
 - [ ] Nested Ranges Count
 - [x] [Room Allocation](./Sorting-and-Searching/Room%20Allocation.cpp)
