@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `59/400`
+## Problems `60/400`
 
 ### Introductory Problems
 
@@ -65,7 +65,7 @@ To compile and run any solution:
 - [x] [Traffic Lights](./Sorting-and-Searching/Traffic%20Lights.cpp)
 - [x] [Distinct Values Subarrays](./Sorting-and-Searching/Distinct%20Value%20Subarrays.cpp)
 - [x] [Distinct Values Subsequences](./Sorting-and-Searching/Distinct%20Values%20Subsequences.cpp)
-- [ ] Josephus Problem I
+- [x] [Josephus Problem I](./Sorting-and-Searching/Josephus%20Problem%20I.cpp)
 - [ ] Josephus Problem II
 - [x] [Nested Ranges Check](./Sorting-and-Searching/Nested%20Ranges%20Check.cpp)
 - [ ] Nested Ranges Count
