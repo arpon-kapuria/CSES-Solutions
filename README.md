@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `61/400`
+## Problems `52/400`
 
 ### Introductory Problems
 
@@ -310,7 +310,7 @@ To compile and run any solution:
 
 ### Sliding Window Problems
 
-- [ ] Sliding Window Sum
+- [x] [Sliding Window Sum](./Sliding-Window-Problems/Sliding%20Window%20Sum.cpp)
 - [ ] Sliding Window Minimum
 - [ ] Sliding Window Xor
 - [ ] Sliding Window Or
