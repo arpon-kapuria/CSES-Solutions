@@ -21,38 +21,34 @@ Space Complexity: O(k)
 using namespace std;
 using ll = long long;
 
-vector<ll> generateInput(ll n, ll x, ll a, ll b, ll c) {
-    vector<ll> arr(n);
-    arr[0] = x;
-    for (ll i = 1; i < n; i++) {
-        arr[i] = ((a * arr[i - 1]) + b) % c;
-    }
-    return arr;
-}
-
 void sliding_window_minimum() {
     ll n, k;
     cin >> n >> k;
     ll x, a, b, c;
     cin >> x >> a >> b >> c;
 
-    vector<ll> arr = generateInput(n, x, a, b, c);
-
     ll result = 0;
     deque<ll> dq;
+    vector<ll> arr(n);
+    arr[0] = x;
 
     for (ll i = 0; i < n; i++) {
+        if (i > 0) {
+            arr[i] = (a * arr[i - 1] + b) % c;
+        }
+
         while (!dq.empty() && dq.front() <= i - k) {
             dq.pop_front();
         }
 
-        while (!dq.empty() && arr[dq.back()] > arr[i]) {
+        while (!dq.empty() && arr[dq.back()] >= arr[i]) {
             dq.pop_back();
         }
 
-        dq.push_back(arr[i]);
+        dq.push_back(i);
+
         if (i >= k - 1) {
-            result ^= dq.front();
+            result ^= arr[dq.front()];
         }
     }
     cout << result << endl;

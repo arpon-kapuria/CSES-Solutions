@@ -22,26 +22,20 @@ Space Complexity: O(1)
 using namespace std;
 using ll = long long;
 
-vector<ll> generateInput(ll n, ll x, ll a, ll b, ll c) {
-    vector<ll> arr(n);
-    arr[0] = x;
-    for (ll i = 1; i < n; i++) {
-        arr[i] = ((a * arr[i - 1]) + b) % c;
-    }
-    return arr;
-}
-
 void sliding_window_sum() {
     ll n, k;
     cin >> n >> k;
     ll x, a, b, c;
     cin >> x >> a >> b >> c;
 
-    vector<ll> arr = generateInput(n, x, a, b, c);
-
     ll left = 0, curr_sum = 0, sum = 0;
+    vector<ll> arr(n);
+    arr[0] = x;
 
     for (ll right = 0; right < n; right++) {
+        if (right > 0) {
+            arr[right] = ((a * arr[right - 1]) + b) % c;
+        }
         curr_sum += arr[right];
 
         if (right - left + 1 == k) {
