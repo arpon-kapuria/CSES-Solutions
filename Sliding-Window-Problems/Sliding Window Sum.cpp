@@ -2,13 +2,19 @@
 Problem Link: https://cses.fi/problemset/task/3220/
 
 Intuition:
-
+We need to compute the XOR of sums of all contiguous subarrays (windows) of size k. Instead of recalculating the sum of each window from scratch (O(k) per window), we maintain the current window sum and update it efficiently as the window slides.
 
 Approach:
-- 
+- Use two pointers (left, right) to represent the sliding window.
+- Maintain a running sum curr_sum of the current window.
+- Expand the window by adding arr[right].
+- When the window reaches size k:
+    - XOR the result with curr_sum.
+    - Slide the window by removing arr[left] and incrementing left.
+- Continue until all windows are processed.
 
-Time Complexity: 
-Space Complexity: 
+Time Complexity: O(n)
+Space Complexity: O(1)
 */
 
 
