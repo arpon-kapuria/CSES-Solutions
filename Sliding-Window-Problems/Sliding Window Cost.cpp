@@ -1,5 +1,5 @@
 /*
-Problem Link: https://cses.fi/problemset/task/PROBLEM_ID/
+Problem Link: https://cses.fi/problemset/task/1077/
 
 Intuition:
 To minimize the total cost of making all elements in a window equal, we want to choose the median as the target value because the sum of absolute differences is minimized at the median. To efficiently compute this for every sliding window, we maintain two multisets: low for the smaller half (≤ median) and high for the larger half (> median). This allows us to track the median and sums incrementally as the window slides, avoiding recomputation over all k elements each time.
