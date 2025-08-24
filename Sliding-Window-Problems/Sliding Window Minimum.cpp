@@ -2,14 +2,14 @@
 Problem Link: https://cses.fi/problemset/task/3221/
 
 Intuition:
-We need the minimum of each sliding window of size k. A naive solution checks all k elements for every window → O(n*k). Too slow. Instead, we maintain a deque of indices such that: It always stores indices of useful elements (deque contains nums in asceding order). The front of deque is always the minimum for the current window. This gives us an O(n) solution.
+We need the minimum of each sliding window of size k. A naive solution checks all k elements for every window → O(n*k). Too slow. Instead, we maintain a deque of indices such that: It always stores indices of useful elements (deque contains nums in ascending order). The front of deque is always the minimum for the current window. This gives us an O(n) solution.
 
 Approach:
 - Iterate through the array, process each element nums[i].
 - Pop back from deque while nums[deque.back()] > arr[i] -> remove greater elements (deque contains nums in asceding order).
 - Push current index i into deque.
 - Pop front if deque.front() is out of the current window (index ≤ i-k).
-- Once we reach at least the first k elements, record nums[deque.front()] as the window max.
+- Once we reach at least the first k elements, record nums[deque.front()] as the window min.
 - Finally, take the xor of all recorded minimums.
 
 Time Complexity: O(n)

@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `57/400`
+## Problems `58/400`
 
 ### Introductory Problems
 
@@ -318,7 +318,7 @@ To compile and run any solution:
 - [x] [Sliding Window Mode](./Sliding-Window-Problems/Sliding%20Window%20Mode.cpp)
 - [ ] Sliding Window Mex
 - [x] [Sliding Window Median](./Sliding-Window-Problems/Sliding%20Window%20Median.cpp)
-- [ ] Sliding Window Cost
+- [x] [Sliding Window Cost](./Sliding-Window-Problems/Sliding%20Window%20Cost.cpp)
 - [ ] Sliding Window Inversions
 - [ ] Sliding Window Advertisement
 

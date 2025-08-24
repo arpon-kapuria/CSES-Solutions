@@ -36,8 +36,10 @@ void sliding_window_median() {
     multiset<ll> window(arr.begin(), arr.begin() + k);
     auto mid = next(begin(window), (k - 1) / 2);
 
-    for (ll i = k; i < n; i++) {
+    for (ll i = k; ; i++) {
         cout << *mid << " ";
+
+        if (i == n) break;
 
         window.insert(arr[i]);
 
@@ -51,7 +53,6 @@ void sliding_window_median() {
 
         window.erase(window.lower_bound(arr[i - k]));
     }
-    cout << *mid << "\n";
 }
 
 int main() {
