@@ -17,7 +17,7 @@ To compile and run any solution:
 ./run folder_name/file_name.cpp
 ```
 
-## Problems `58/400`
+## Problems `60/400`
 
 ### Introductory Problems
 
@@ -203,7 +203,7 @@ To compile and run any solution:
 - [ ] Exponentiation II  
 - [ ] Counting Divisors
 - [ ] Common Divisors  
-- [ ] Sum of Divisors  
+- [x] [Sum of Divisors](./Mathematics/Sum%20of%20Divisors.cpp)
 - [ ] Divisor Analysis  
 - [ ] Prime Multiples  
 - [ ] Counting Coprime Pairs  
@@ -319,7 +319,7 @@ To compile and run any solution:
 - [ ] Sliding Window Mex
 - [x] [Sliding Window Median](./Sliding-Window-Problems/Sliding%20Window%20Median.cpp)
 - [x] [Sliding Window Cost](./Sliding-Window-Problems/Sliding%20Window%20Cost.cpp)
-- [ ] Sliding Window Inversions
+- [x] [Sliding Window Inversions](./Sliding-Window-Problems/Sliding%20Window%20Inversions.cpp)
 - [ ] Sliding Window Advertisement
 
 ### Interactive Problems
